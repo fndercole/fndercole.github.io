@@ -1,0 +1,4 @@
+*.Rmd
+bootstrap
+*.yml
+*.less
