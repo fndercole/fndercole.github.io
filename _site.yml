@@ -10,7 +10,7 @@ navbar:
     - text: "Académico"
       href: scholar.html
     - text: "Contacto"
-      href: contact.html
+      href: contacto.html
 output:
   html_document:
     include:
