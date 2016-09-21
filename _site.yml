@@ -13,7 +13,8 @@ navbar:
       href: contacto.html
 output:
   html_document:
-    include:
+    includes:
+      in_header: header.html
       after_body: footer.html
     css: theme.css
     self_contained: TRUE
