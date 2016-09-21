@@ -31,10 +31,18 @@ body {
   left: 0;
   right: 0;
   width: 100%;
-  padding: 20px;
   min-height: 90px;
   max-height: 150px;
-  background: @gray-light;
+  background: @gray-lighter;
+}
+
+.container .text-muted {
+  margin: 20px 0
+}
+
+.footer > .container {
+  padding-right:15px;
+  padding-left:15px
 }
 
 //
@@ -874,7 +882,7 @@ body {
 //** Horizontal offset for forms and lists.
 @component-offset-horizontal: 180px;
 //** Text muted color
-@text-muted:                  @gray-light;
+@text-muted:                  @gray-dark;
 //** Abbreviations and acronyms border color
 @abbr-border-color:           @gray-light;
 //** Headings small color
