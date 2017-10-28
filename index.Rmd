@@ -2,17 +2,17 @@
 title: Curriculum Vitae
 ---
 
-![](img/yocurriculum.png)  
+![](img/yocurriculum.png)
 
 Licenciado en Economía egresado en la Universidad Nacional de Río Cuarto. Actualmente, tesista de Maestría en Economía en la Universidad de San Andrés.
 
-Me desempeño como docente e investigador en la Universidad Nacional de Río Cuarto en las cátedras de Inferencia Estadística y Econometría, como profesor invitado en la Universidad Nacional de Villa María en la cátedra de Estadística y Probabilidad, y como profesor en la Universidad Siglo 21 en las cátedras de Investigación Operativa y Estadística II.
+Me desempeño como docente e investigador en la Universidad Nacional de Río Cuarto en las cátedras de Inferencia Estadística y Econometría, como profesor invitado en la Universidad Nacional de Villa María en la cátedra de Estadística y Probabilidad, Inferencia Estadística y Econometría, y como profesor en la Universidad Siglo 21 en las cátedras de Investigación Operativa y Estadística II.
 
 Además soy consultor independiente especialmente en el campo de la Estadística y Econometría, el Desarrollo Económico, Organización Industrial y Economía en general.
 
 Mi principal hobby son el dibujo y el arte digital.
 
-_Ver curriculum completo [aquí](http://www.faviodercole.com.ar/cv/cv_es_pub.pdf)_.
+_Ver currículum completo [aquí](http://www.faviodercole.com.ar/cv/cv_es_pub.pdf)_.
 
 _Ver perfil de [GitHub](https://github.com/fndercole)_
 
@@ -37,8 +37,11 @@ _Ver perfil de [GitHub](https://github.com/fndercole)_
   + __2008 - presente__. _Docente de las materias de Econometría e Inferencia Estadística_.
     Río Cuarto: Universidad Nacional de Río Cuarto.
 
-  + __2015 - presente__. _Profesor de Estadística y Probabilidad_.
+  + __2015 - presente__. _Profesor de Estadística y Probabilidad, Inferencia Estadística y Econometría_.
     San Francisco: Universidad Nacional de Villa María.
+
+  + __2016 - presente__. _Profesor de Estadística II e Investigación Operativa_.
+    Río Cuarto: Universidad Siglo 21.
 
 
 ## Publicaciones y Distinciones
