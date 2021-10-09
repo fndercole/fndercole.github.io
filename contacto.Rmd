@@ -5,7 +5,7 @@ title: Contacto
 Para contactarse, solicitar información o consultar sobre servicios de consultoría:
 
   + __e-mail:__ contacto@faviodercole.com.ar
-  + __Móvil:__ +54 (0358) 15 508 4035
+  + __WhatsApp:__ +54 (0358) 15 438 4146
 
 Contacto académico:
 
@@ -14,4 +14,16 @@ Contacto académico:
   + Universidad Nacional de Río Cuarto
     Ruta Nacional 36, Km. 601
     Código Postal X5804BYA
+    Río Cuarto, Córdoba, Argentina
+
+  + __e-mail:__ fdercole@unvm.edu.ar
+  + Universidad Nacional de Villa María
+    Av. Arturo Jauretche 1555
+    Código Postal 5900
+    Villa María, Córdoba, Argentina
+
+  + __e-mail:__ favio.dercole@ues21.edu.ar
+  + Universidad Siglo 21
+    Av. España 116
+    Código Postal 5800
     Río Cuarto, Córdoba, Argentina

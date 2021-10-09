@@ -18,18 +18,24 @@ En esta sección encontrará información sobre los cursos en los cuáles partic
 
 ## Inferencia Estadística
 
-  + Institución: Universidad Nacional de Río Cuarto  
+  + Institución: Universidad Nacional de Río Cuarto / Universidad Nacional de Villa María
   + Carrera: Licenciatura en Economía  
   + Fecha: 2009 - Presente  
 
 ## Econometría
 
-  + Institución: Universidad Nacional de Río Cuarto  
+  + Institución: Universidad Nacional de Río Cuarto / Universidad Nacional de Villa María
   + Carrera: Licenciatura en Economía  
   + Fecha: 2008 - Presente
 
 ## Investigación Operativa
 
-  + Institución: Universidad Siglo 21  
+  + Institución: Universidad Siglo 21
   + Carrera: Licenciatura en Administración Agraria  
   + Fecha: 2016 - Presente  
+
+## Seminario Final de Contador Público
+
+  + Institución: Universidad Siglo 21
+  + Carrera: Licenciatura en Administración Agraria
+  + Fecha: 2020 - 2021
