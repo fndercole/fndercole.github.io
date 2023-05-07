@@ -17,12 +17,6 @@ Contacto académico:
     - Código Postal X5804BYA
     - Río Cuarto, Córdoba, Argentina
 
-  + Universidad Nacional de Villa María
-    - __e-mail:__ fdercole@unvm.edu.ar
-    - Av. Arturo Jauretche 1555
-    - Código Postal 5900
-    - Villa María, Córdoba, Argentina
-
   + Universidad Siglo 21
     - __e-mail:__ favio.dercole@ues21.edu.ar
     - Av. España 116

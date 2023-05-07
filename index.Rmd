@@ -2,14 +2,14 @@
 title: Curriculum Vitae
 ---
 
-![](img/yocurriculum.png)
+![](img/foto_perfil.jpg){style="width: 30rem; float: right; margin: 0 0 1rem 1rem; border-radius: 50%; box-shadow: 0 0 1rem rgba(0,0,0,.5)"}
 
 Licenciado en Economía egresado en la Universidad Nacional de Río Cuarto.
 Magíster en Economía egresado en la Universidad de San Andrés.
 
-Me desempeño como docente e investigador en la Universidad Nacional de Río Cuarto, la Universidad Nacional de Villa María y la Universidad Siglo 21.
+Me desempeño como docente e investigador en la Universidad Nacional de Río Cuarto y la Universidad Siglo 21.
 
-Además soy consultor independiente, especialmente en el campo de la Estadística y Econometría, el Desarrollo Económico, Organización Industrial y Economía en general.
+Además soy consultor independiente, especialmente en el campo de la Econometría y la Ciencia de Datos, el Desarrollo Económico, Organización Industrial y Economía en general.
 
 Mi principal hobby son el dibujo y el arte digital.
 
@@ -17,7 +17,7 @@ _Ver currículum completo [aquí](http://www.faviodercole.com.ar/cv/cv_es_pub.pd
 
 _Ver perfil de [GitHub](https://github.com/fndercole)_
 
-_Ver canal de [YouTube](https://www.youtube.com/channel/UCr22HL5BtwUDmDLIVDbBfUA)_
+_Ver canal de [YouTube](https://www.youtube.com/@favio_dercole)_
 
 ## Educación
 ### Pos-grado
@@ -37,10 +37,10 @@ _Ver canal de [YouTube](https://www.youtube.com/channel/UCr22HL5BtwUDmDLIVDbBfUA
 
   + __2011 - presente__. _Consultor Independiente_.
 
-  + __2008 - presente__. _Docente de las materias de Econometría e Inferencia Estadística_.
+  + __2008 - presente__. Profesor de Econometría y Ciencia de Datos_.
     Universidad Nacional de Río Cuarto.
 
-  + __2015 - presente__. _Docente de Estadística y Probabilidad, Inferencia Estadística y Econometría_.
+  + __2015 - 2023__. _Docente de Estadística y Probabilidad, Inferencia Estadística y Econometría_.
     Universidad Nacional de Villa María.
 
   + __2016 - presente__. _Profesor de Estadística II e Investigación Operativa_.

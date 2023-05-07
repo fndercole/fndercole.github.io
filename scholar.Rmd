@@ -2,37 +2,66 @@
 title: Académico
 ---
 
-En esta sección encontrará información sobre los cursos en los cuáles participo como docente.
+En esta sección encontrará información sobre los cursos en los cuáles he participado y participo como docente.
 
-## Estadística y Probabilidad
-
-  + Institución: Universidad Nacional de Villa María  
-  + Carrera: Contador Público  
-  + Fecha: 2015 - Presente  
-
-## Estadística II
-
-  + Institución: Universidad Siglo 21  
-  + Carrera: Licenciatura en Administración y Contador Público  
-  + Fecha: 2016 - Presente  
-
-## Inferencia Estadística
-
-  + Institución: Universidad Nacional de Río Cuarto / Universidad Nacional de Villa María
-  + Carrera: Licenciatura en Economía  
-  + Fecha: 2009 - Presente  
-
-## Econometría
-
-  + Institución: Universidad Nacional de Río Cuarto / Universidad Nacional de Villa María
-  + Carrera: Licenciatura en Economía  
-  + Fecha: 2008 - Presente
+**Cursos actuales**
 
 ## Investigación Operativa
 
   + Institución: Universidad Siglo 21
-  + Carrera: Licenciatura en Administración Agraria  
-  + Fecha: 2016 - Presente  
+  + Carrera: Licenciatura en Administración Agraria, Licenciatura en Administración y Contador Público
+  + Fecha: 2016 - Presente
+
+## Estadística II
+
+  + Institución: Universidad Siglo 21
+  + Carrera: Licenciatura en Administración, Licenciatura en Comercio Exterior y Contador Público
+  + Fecha: 2016 - Presente
+
+## Econometría I
+
+  + Institución: Universidad Nacional de Río Cuarto
+  + Carrera: Licenciatura en Economía
+  + Fecha: 2023 - Presente
+
+## Econometría II
+
+  + Institución: Universidad Nacional de Río Cuarto
+  + Carrera: Licenciatura en Economía
+  + Fecha: 2023 - Presente
+
+## Ciencia de Datos
+
+  + Institución: Universidad Nacional de Río Cuarto
+  + Carrera: Licenciatura en Economía, Licenciatura en Administración y Contador Público
+  + Fecha: 2022 - Presente
+
+
+---------------
+
+**Cursos finalizados**
+
+## Estadística y Probabilidad
+
+  + Institución: Universidad Nacional de Villa María  
+  + Carrera: Contador Público, Licenciatura en Administración de Empresas y Licenciatura en Economía
+  + Fecha: 2015 - 2023
+
+## Inferencia Estadística
+
+  + Instituciones:
+      - Universidad Nacional de Río Cuarto (2009 - 2022)
+      - Universidad Nacional de Villa María (2016 - 2022)
+  + Carrera: Licenciatura en Economía  
+  + Fecha: 2009 - 2022
+
+## Econometría
+
+  + Instituciones:
+      - Universidad Nacional de Río Cuarto (2008 - 2022)
+      - Universidad Nacional de Villa María (2016 - 2022)
+  + Carrera: Licenciatura en Economía  
+  + Fecha: 2008 - 2022
 
 ## Seminario Final de Contador Público
 
