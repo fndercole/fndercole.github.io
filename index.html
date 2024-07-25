@@ -13,6 +13,7 @@
 
 <title>Curriculum Vitae</title>
 
+<script src="site_libs/header-attrs-2.25/header-attrs.js"></script>
 <script src="site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <link href="site_libs/bootstrap-3.3.5/css/bootstrap.min.css" rel="stylesheet" />
@@ -142,11 +143,15 @@ $(document).ready(function () {
     href = "index.html";
   var menuAnchor = $('a[href="' + href + '"]');
 
-  // mark it active
-  menuAnchor.tab('show');
-
-  // if it's got a parent navbar menu mark it active as well
-  menuAnchor.closest('li.dropdown').addClass('active');
+  // mark the anchor link active (and if it's in a dropdown, also mark that active)
+  var dropdown = menuAnchor.closest('li.dropdown');
+  if (window.bootstrap) { // Bootstrap 4+
+    menuAnchor.addClass('active');
+    dropdown.find('> .dropdown-toggle').addClass('active');
+  } else { // Bootstrap 3
+    menuAnchor.parent().addClass('active');
+    dropdown.addClass('active');
+  }
 
   // Navbar adjustments
   var navHeight = $(".navbar").first().height() + 15;
@@ -175,8 +180,8 @@ $(document).ready(function () {
   border-radius: 4px;
 }
 
-.tabset-dropdown > .nav-tabs > li.active:before {
-  content: "";
+.tabset-dropdown > .nav-tabs > li.active:before, .tabset-dropdown > .nav-tabs.nav-tabs-open:before {
+  content: "\e259";
   font-family: 'Glyphicons Halflings';
   display: inline-block;
   padding: 10px;
@@ -184,16 +189,9 @@ $(document).ready(function () {
 }
 
 .tabset-dropdown > .nav-tabs.nav-tabs-open > li.active:before {
-  content: "&#xe258;";
-  border: none;
-}
-
-.tabset-dropdown > .nav-tabs.nav-tabs-open:before {
-  content: "";
+  content: "\e258";
   font-family: 'Glyphicons Halflings';
-  display: inline-block;
-  padding: 10px;
-  border-right: 1px solid #ddd;
+  border: none;
 }
 
 .tabset-dropdown > .nav-tabs > li.active {
@@ -272,50 +270,92 @@ $(document).ready(function () {
 </div>
 
 
-<p><img src="img/foto_perfil.jpg" style="width: 30rem; float: right; margin: 0 0 1rem 1rem; border-radius: 50%; box-shadow: 0 0 1rem rgba(0,0,0,.5)" /></p>
-<p>Licenciado en Economía egresado en la Universidad Nacional de Río Cuarto. Magíster en Economía egresado en la Universidad de San Andrés.</p>
-<p>Me desempeño como docente e investigador en la Universidad Nacional de Río Cuarto y la Universidad Siglo 21.</p>
-<p>Además soy consultor independiente, especialmente en el campo de la Econometría y la Ciencia de Datos, el Desarrollo Económico, Organización Industrial y Economía en general.</p>
+<p><img src="img/foto_perfil.jpg"
+style="width: 30rem; float: right; margin: 0 0 1rem 1rem; border-radius: 50%; box-shadow: 0 0 1rem rgba(0,0,0,.5)" /></p>
+<p>Licenciado en Economía egresado en la Universidad Nacional de Río
+Cuarto. Magíster en Economía egresado en la Universidad de San
+Andrés.</p>
+<p>Me desempeño como docente e investigador en la Universidad Nacional
+de Río Cuarto y la Universidad Siglo 21.</p>
+<p>Además soy consultor independiente, especialmente en el campo de la
+Econometría y la Ciencia de Datos, el Desarrollo Económico, Organización
+Industrial y Economía en general.</p>
 <p>Mi principal hobby son el dibujo y el arte digital.</p>
-<p><em>Ver currículum completo <a href="http://www.faviodercole.com.ar/cv/cv_es_pub.pdf">aquí</a></em>.</p>
-<p><em>Ver perfil de <a href="https://github.com/fndercole">GitHub</a></em></p>
-<p><em>Ver canal de <a href="https://www.youtube.com/@favio_dercole">YouTube</a></em></p>
-<p><em>Ver perfil de <a href="https://www.linkedin.com/in/favio-d-ercole-50119827/">LinkedIn</a></em></p>
+<p><em>Ver currículum completo <a
+href="http://www.faviodercole.com.ar/cv/cv_es_pub.pdf">aquí</a></em>.</p>
+<p><em>Ver perfil de <a
+href="https://github.com/fndercole">GitHub</a></em></p>
+<p><em>Ver canal de <a
+href="https://www.youtube.com/@favio_dercole">YouTube</a></em></p>
+<p><em>Ver perfil de <a
+href="https://www.linkedin.com/in/favio-d-ercole-50119827/">LinkedIn</a></em></p>
 <div id="educación" class="section level2">
 <h2>Educación</h2>
 <div id="pos-grado" class="section level3">
 <h3>Pos-grado</h3>
 <ul>
-<li><p><strong>2010 - 2019</strong>. <em>Maestría in Economía</em>. Buenos Aires: Universidad de San Andrés.</p>
-<p>Tesis: <em>Competencia a la Bertrand con Costos de Sustitución y Efectos de Red</em>.</p></li>
+<li><p><strong>2023 - Actualidad</strong>. <em>Programa de Doctorado en
+Economía, Empresa, Finanzas y Computación</em>. Huelva: Universidad de
+Huelva y Universidad Internacional de Andalucía.</p></li>
+<li><p><strong>2010 - 2019</strong>. <em>Maestría in Economía</em>.
+Buenos Aires: Universidad de San Andrés.</p>
+<p>Tesis: <em>Competencia a la Bertrand con Costos de Sustitución y
+Efectos de Red</em>.</p></li>
 </ul>
 </div>
 <div id="grado" class="section level3">
 <h3>Grado</h3>
 <ul>
-<li><p><strong>2003 - 2008</strong>. <em>Licenciatura en Economía</em>. Río Cuarto: Universidad Nacional de Río Cuarto.</p>
-<p>Tesis: <em>Rol de los mercados de capitales en los procesos de desarrollo económicos</em>.</p></li>
+<li><p><strong>2003 - 2008</strong>. <em>Licenciatura en Economía</em>.
+Río Cuarto: Universidad Nacional de Río Cuarto.</p>
+<p>Tesis: <em>Rol de los mercados de capitales en los procesos de
+desarrollo económicos</em>.</p></li>
 </ul>
 </div>
 </div>
 <div id="experiencia-laboral" class="section level2">
 <h2>Experiencia Laboral</h2>
 <ul>
-<li><p><strong>2011 - presente</strong>. <em>Consultor Independiente</em>.</p></li>
-<li><p><strong>2008 - presente</strong>. Profesor de Econometría y Ciencia de Datos_. Universidad Nacional de Río Cuarto.</p></li>
-<li><p><strong>2015 - 2023</strong>. <em>Docente de Estadística y Probabilidad, Inferencia Estadística y Econometría</em>. Universidad Nacional de Villa María.</p></li>
-<li><p><strong>2016 - presente</strong>. <em>Profesor de Estadística II e Investigación Operativa</em>. Universidad Siglo 21.</p></li>
+<li><p><strong>2011 - presente</strong>. <em>Consultor
+Independiente</em>.</p></li>
+<li><p><strong>2008 - presente</strong>. Profesor de Econometría y
+Ciencia de Datos_. Universidad Nacional de Río Cuarto.</p></li>
+<li><p><strong>2015 - 2023</strong>. <em>Docente de Estadística y
+Probabilidad, Inferencia Estadística y Econometría</em>. Universidad
+Nacional de Villa María.</p></li>
+<li><p><strong>2016 - presente</strong>. <em>Profesor de Estadística II
+e Investigación Operativa</em>. Universidad Siglo 21.</p></li>
 </ul>
 </div>
 <div id="publicaciones-y-distinciones" class="section level2">
 <h2>Publicaciones y Distinciones</h2>
 <ul>
-<li><p>D’Ercole, Favio (2019). Competencia a la Bertrand con Costos de Sustitución y Efectos de Red. <em>Anales de la Asociación Argentina de Economía Política (LIV)</em>. <a href="https://aaep.org.ar/anales/works/works2019/dercole.pdf">ver PDF</a></p></li>
-<li><p>D’Ercole, Favio y Natali, Pamela (2012). Análisis exploratorio de la dinámica laboral en Argentina (2003-2011). <em>Anales de la Asociación Argentina de Economía Política (XXLVII)</em>. <a href="https://www.aaep.org.ar/anales/works/works2012/DErcole.pdf">ver PDF</a></p></li>
-<li><p>D’Ercole, F., Guerrero, E., y Sandoval, V. (2011). Emergencia y atomización de centros mercantiles. Proyecto de <em>El Autómata Económico</em>. <a href="http://www.elautomataeconomico.com.ar/download/TP-2010/Dercole-Guerrero-Sandoval.pdf">ver PDF</a></p></li>
-<li><p>D’Ercole, Favio (2008). Rol de los Mercados de Capitales en los procesos de Desarrollo Económico. <em>Anales de la Asociación Argentina de Economía Política (XXLIII)</em>. <a href="https://www.aaep.org.ar/anales/works/works2008/dercole.pdf">ver PDF</a></p></li>
-<li><p>Nominado en la categoría de Ciencia y Técnica como “Ciudadano Destacado 2008”. Río Cuarto: Telediario, Canal 13.</p></li>
-<li><p>D’Ercole, Favio (2008). Evidencia empírica sobre la relación Finanzas - Crecimiento. <em>Asociación Argentina de Docentes de Matemática de Facultades de Ciencias Económicas y Afines</em>. Distinción: Primer Premio Ing. Ricardo Carbajo.</p></li>
+<li><p>D’Ercole, Favio (2019). Competencia a la Bertrand con Costos de
+Sustitución y Efectos de Red. <em>Anales de la Asociación Argentina de
+Economía Política (LIV)</em>. <a
+href="https://aaep.org.ar/anales/works/works2019/dercole.pdf">ver
+PDF</a></p></li>
+<li><p>D’Ercole, Favio y Natali, Pamela (2012). Análisis exploratorio de
+la dinámica laboral en Argentina (2003-2011). <em>Anales de la
+Asociación Argentina de Economía Política (XXLVII)</em>. <a
+href="https://www.aaep.org.ar/anales/works/works2012/DErcole.pdf">ver
+PDF</a></p></li>
+<li><p>D’Ercole, F., Guerrero, E., y Sandoval, V. (2011). Emergencia y
+atomización de centros mercantiles. Proyecto de <em>El Autómata
+Económico</em>. <a
+href="http://www.elautomataeconomico.com.ar/download/TP-2010/Dercole-Guerrero-Sandoval.pdf">ver
+PDF</a></p></li>
+<li><p>D’Ercole, Favio (2008). Rol de los Mercados de Capitales en los
+procesos de Desarrollo Económico. <em>Anales de la Asociación Argentina
+de Economía Política (XXLIII)</em>. <a
+href="https://www.aaep.org.ar/anales/works/works2008/dercole.pdf">ver
+PDF</a></p></li>
+<li><p>Nominado en la categoría de Ciencia y Técnica como “Ciudadano
+Destacado 2008”. Río Cuarto: Telediario, Canal 13.</p></li>
+<li><p>D’Ercole, Favio (2008). Evidencia empírica sobre la relación
+Finanzas - Crecimiento. <em>Asociación Argentina de Docentes de
+Matemática de Facultades de Ciencias Económicas y Afines</em>.
+Distinción: Primer Premio Ing. Ricardo Carbajo.</p></li>
 </ul>
 </div>
 
