@@ -1,0 +1,20 @@
+name: "faviodercole.com.ar"
+exclude: ["bootstrap", "*.less", "*.json"]
+output_dir: "."
+navbar:
+  title: "Favio D'Ercole"
+  type: inverse
+  right:
+    - text: "CV"
+      href: index.html
+    - text: "Académico"
+      href: scholar.html
+    - text: "Contacto"
+      href: contacto.html
+output:
+  html_document:
+    includes:
+      in_header: header.html
+      after_body: footer.html
+    css: theme.css
+    self_contained: TRUE

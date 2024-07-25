@@ -1,0 +1,77 @@
+---
+title: Curriculum Vitae
+---
+
+![](img/foto_perfil.jpg){style="width: 30rem; float: right; margin: 0 0 1rem 1rem; border-radius: 50%; box-shadow: 0 0 1rem rgba(0,0,0,.5)"}
+
+Licenciado en Economía egresado en la Universidad Nacional de Río Cuarto.
+Magíster en Economía egresado en la Universidad de San Andrés.
+
+Me desempeño como docente e investigador en la Universidad Nacional de Río Cuarto y la Universidad Siglo 21.
+
+Además soy consultor independiente, especialmente en el campo de la Econometría y la Ciencia de Datos, el Desarrollo Económico, Organización Industrial y Economía en general.
+
+Mi principal hobby son el dibujo y el arte digital.
+
+_Ver currículum completo [aquí](http://www.faviodercole.com.ar/cv/cv_es_pub.pdf)_.
+
+_Ver perfil de [GitHub](https://github.com/fndercole)_
+
+_Ver canal de [YouTube](https://www.youtube.com/@favio_dercole)_
+
+_Ver perfil de [LinkedIn](https://www.linkedin.com/in/favio-d-ercole-50119827/)_
+
+## Educación
+### Pos-grado
+
+  + __2023 - Actualidad__. _Programa de Doctorado en Economía, Empresa, Finanzas y Computación_. Huelva: Universidad de Huelva y Universidad Internacional de Andalucía.
+  
+
+  + __2010 - 2019__. _Maestría in Economía_.
+    Buenos Aires: Universidad de San Andrés.
+
+    Tesis: _Competencia a la Bertrand con Costos de Sustitución y Efectos de Red_.
+
+### Grado
+  + __2003 - 2008__. _Licenciatura en Economía_.
+    Río Cuarto: Universidad Nacional de Río Cuarto.
+
+    Tesis: _Rol de los mercados de capitales en los procesos de desarrollo económicos_.
+
+## Experiencia Laboral
+
+  + __2011 - presente__. _Consultor Independiente_.
+
+  + __2008 - presente__. Profesor de Econometría y Ciencia de Datos_.
+    Universidad Nacional de Río Cuarto.
+
+  + __2015 - 2023__. _Docente de Estadística y Probabilidad, Inferencia Estadística y Econometría_.
+    Universidad Nacional de Villa María.
+
+  + __2016 - presente__. _Profesor de Estadística II e Investigación Operativa_.
+    Universidad Siglo 21.
+
+## Publicaciones y Distinciones
+
+  + D'Ercole, Favio (2019). Competencia a la Bertrand con Costos de Sustitución y Efectos de Red. _Anales de la Asociación Argentina de Economía Política (LIV)_. [ver PDF](https://aaep.org.ar/anales/works/works2019/dercole.pdf)
+
+  + D'Ercole, Favio y Natali, Pamela (2012).
+    Análisis exploratorio de la dinámica laboral en Argentina (2003-2011).
+    _Anales de la Asociación Argentina de Economía Política (XXLVII)_.
+    [ver PDF](https://www.aaep.org.ar/anales/works/works2012/DErcole.pdf)
+
+  + D'Ercole, F., Guerrero, E., y Sandoval, V. (2011).
+    Emergencia y atomización de centros mercantiles.
+    Proyecto de _El Autómata Económico_.
+    [ver PDF](http://www.elautomataeconomico.com.ar/download/TP-2010/Dercole-Guerrero-Sandoval.pdf)
+
+  + D'Ercole, Favio (2008).
+    Rol de los Mercados de Capitales en los procesos de Desarrollo Económico.
+    _Anales de la Asociación Argentina de Economía Política (XXLIII)_.
+    [ver PDF](https://www.aaep.org.ar/anales/works/works2008/dercole.pdf)
+
+  + Nominado en la categoría de Ciencia y Técnica como "Ciudadano Destacado 2008". Río Cuarto: Telediario, Canal 13.
+
+  + D'Ercole, Favio (2008).
+    Evidencia empírica sobre la relación Finanzas - Crecimiento.
+    _Asociación Argentina de Docentes de Matemática de Facultades de Ciencias Económicas y Afines_. Distinción: Primer Premio Ing. Ricardo Carbajo.
